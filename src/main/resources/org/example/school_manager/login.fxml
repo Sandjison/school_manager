@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="407.0" prefWidth="228.0" style="-fx-background-color: blue;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="29.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Académie des Horizons Brillants" textAlignment="CENTER" wrappingWidth="170.94622802734375">
+               <font>
+                  <Font name="Arial Black" size="23.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="29.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chaque jour est une leçon, chaque rencontre est une découverte." textAlignment="CENTER" wrappingWidth="170.94622802734375" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="332.0" style="-fx-background-color: ECECE7;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="14.0" layoutY="115.0" text="Directeur">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="97.0" layoutY="112.0" prefHeight="26.0" prefWidth="173.0" promptText="Directeur" />
+            <Label layoutX="11.0" layoutY="167.0" text="Mot de passe">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <TextField layoutX="97.0" layoutY="164.0" prefHeight="26.0" prefWidth="173.0" />
+            <PasswordField layoutX="97.0" layoutY="164.0" prefHeight="26.0" prefWidth="173.0" promptText="Mot de passe" />
+            <Button layoutX="31.0" layoutY="251.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="240.0" style="-fx-background-color: blue;" text="Lancer" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="31.0" layoutY="306.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="240.0" style="-fx-background-color: blue;" text="Annuler" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="11.0" layoutY="219.0" prefHeight="19.0" prefWidth="269.0" textFill="#1f0303">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Text fill="BLUE" layoutX="72.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Académie">
+               <font>
+                  <Font name="Arial Black" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
